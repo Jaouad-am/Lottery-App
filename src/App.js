@@ -1,13 +1,11 @@
-import Ball from "./Ball";
 import "./App.css";
+import Lottery from "./Lottery";
 
 function App() {
   return (
     <div className="App">
-      <Ball num={4} />
-      <Ball num={5} />
-      <Ball num={40} />
-      <Ball num={48} />
+      <Lottery />
+      <Lottery title="Mini" maxBalls={4} maxNum={10} />
     </div>
   );
 }
